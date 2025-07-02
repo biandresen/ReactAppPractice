@@ -1,12 +1,23 @@
-# React + Vite
+Live server -> <a href="https://react-app-practice-95rh.vercel.app/">Click Here</a>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# React Movie Search App
 
-Currently, two official plugins are available:
+This is a React-based movie search application built as a personal project to practice and improve my React skills. It is inspired by and based on the tutorial/project by Adrian Hajdin, available here: [https://github.com/adrianhajdin/react-movies](https://github.com/adrianhajdin/react-movies).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Overview
 
-## Expanding the ESLint configuration
+The app allows users to search for movies by title using The Movie Database (TMDB) API. It displays movie posters, titles, years, and supports dynamic search functionality with a clean and responsive UI.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Search movies by title
+- View movie posters and details
+- Responsive design for desktop and mobile
+- Loading and error states handling
+
+## Technologies Used
+
+- React (functional components and hooks)
+- CSS for styling
+- Fetch API for HTTP requests
+- Vite for project setup and build tooling
